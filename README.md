@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# React-code-challenge-1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
 
-## Available Scripts
+Keeping accurate and up-to-date records of bank transactions is important for a variety of reasons. These records can be used to track expenses, monitor account activity, and ensure that all transactions are legitimate. They can also be used to reconcile bank statements, prepare financial reports, and assist with tax preparation. Additionally, maintaining records of bank transactions can help detect and prevent fraud and errors. In the event of an audit or legal dispute, having detailed records can help demonstrate compliance with laws and regulations and provide evidence of financial transactions. Overall, maintaining accurate bank transaction records is critical for maintaining financial stability and accountability.
+# Getting Started
 
-In the project directory, you can run:
+If you haven't already, fork and clone this lesson into your local environment.
 
-### `npm start`
+# Quick Review to clone the program into your local environment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Navigate to https://github.com/stevembugua/React-code-challenge-1
+2. Once you are in my Github repo, choose SSH and copy the provided git URL info.
+3. navigate to the folder you want to clone the program
+4. Clone to your local machine with `git clone` followed by the git URL you copied. This will create a folder in the location you're currently in containing the program's files.
+5. `cd` into `React-code-challenge-1`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# How to start the Program
 
-### `npm test`
+1. Open Visual Studio Code or any other code text editor you have available with you
+2. Open the terminal and make sure that you are in the program's folder
+3. Run `npx json-server --watch db.json` first.
+4. After,the db.json has already been tracked run `npm run start` to start the program.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Running the program
+The program is a pretty straight foward to follow.Just navigate to the website and you can view the current bank transactions.You can also make a transaction and the record will be updated in the table below.
 
-### `npm run build`
+# Authors
+This project was contributed to by:
+-steve mbugua
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+The project is licensed under ISC
