@@ -10,7 +10,7 @@ function Test() {
   const [amount, setAmount] = useState();
   const [search,setSearch] = useState('')
 
-  const URL = "http://localhost:3000/transactions";
+  const URL = "http://localhost:5000/transactions";
 
   useEffect(() => {
     fetchData();
@@ -40,7 +40,11 @@ function Test() {
       <form className="inputs" onSubmit={(e)=>{
         e.preventDefault()
         addRecord()
-        alert('One transaction made successfully')
+        setDate('')
+        setAmount('')
+        setDescription('')
+        setCategory('')
+        alert('Transaction made successfully')
       }} >
         <h2 className="h2">TRANSACT WITH SEALEAD SAFE BANK</h2>
           <input type='date' placeholder="date" value={date} onChange={(e)=>{
