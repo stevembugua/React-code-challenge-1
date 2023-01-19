@@ -21,7 +21,6 @@ function Test() {
       .then((res) => res.json())
 
       .then((response) => {
-        console.log(response);
         setData(response);
       });
   };
