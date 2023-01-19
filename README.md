@@ -7,6 +7,12 @@ Keeping accurate and up-to-date records of bank transactions is important for a 
 
 If you haven't already, fork and clone this lesson into your local environment.
 
+# alternative 1
+- Use the github pages link provided below to run the program
+
+           https://stevembugua.github.io/React-code-challenge-1/
+
+
 # Quick Review to clone the program into your local environment
 
 1. Navigate to https://github.com/stevembugua/React-code-challenge-1
