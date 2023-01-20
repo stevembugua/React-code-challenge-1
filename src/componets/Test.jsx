@@ -10,26 +10,22 @@ function Test() {
   const [amount, setAmount] = useState();
   const [search,setSearch] = useState('')
 
-  const URL = "http://localhost:5000/transactions";
+  const URL = "https://stevembugua.github.io/data.json";
 
-  useEffect(() => {
-    fetchData();
-  }, []);
 
   const fetchData = () => {
     fetch(URL)
-      .then((res) => {
-        if(res.ok){
-          res.json()
-        }else {
-           console.log('Failed to fetch data from file')
-        }
-      } )
+      .then((res) => res.json() )
 
       .then((response) => {
         setData(response);
       });
   };
+
+
+  useEffect(() => {
+    fetchData();
+  }, []);
 
 
   const addRecord = ()=>{
