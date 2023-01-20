@@ -18,7 +18,13 @@ function Test() {
 
   const fetchData = () => {
     fetch(URL)
-      .then((res) => res.json())
+      .then((res) => {
+        if(res.ok){
+          res.json()
+        }else {
+           console.log('Failed to fetch data from file')
+        }
+      } )
 
       .then((response) => {
         setData(response);
