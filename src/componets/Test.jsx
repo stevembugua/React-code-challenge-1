@@ -10,7 +10,7 @@ function Test() {
   const [amount, setAmount] = useState();
   const [search,setSearch] = useState('')
 
-  const URL = "https://stevembugua.github.io/data.json";
+  const URL = "https://stevembugua.github.io/steve.github.io/db.json";
 
 
   const fetchData = () => {
